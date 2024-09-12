@@ -1,0 +1,1741 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     80192,       1733]
+NotebookOptionsPosition[     78693,       1697]
+NotebookOutlinePosition[     79416,       1721]
+CellTagsIndexPosition[     79311,       1716]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Chapter IX Finding Help", "Subsection",
+ CellChangeTimes->{{3.9334878816193447`*^9, 
+  3.9334878958299656`*^9}},ExpressionUUID->"478d600f-98b4-48be-9961-\
+2df8249a76e2"],
+
+Cell["Try use \[OpenCurlyDoubleQuote]?\[CloseCurlyDoubleQuote] operator:", \
+"Text",
+ CellChangeTimes->{{3.9334879062027645`*^9, 
+  3.933487918706524*^9}},ExpressionUUID->"7ba53834-220c-4894-afaf-\
+c869779b969a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "Plot"}]], "Input",
+ CellChangeTimes->{{3.933487921310898*^9, 3.93348792227071*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"65a6f440-6053-4e01-9844-1d7a02b0a77b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = True, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {4., 9.}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {4., 9.}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Plot",
+              ButtonNote->"paclet:ref/Plot"],
+             "\"paclet:ref/Plot\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Plot\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"f\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) \:7ed8\
+\:5236\:51fd\:6570 \\!\\(\\*StyleBox[\\\"f\\\", \\\"TI\\\"]\\) \:7684\:56fe\
+\:7ebf\:ff0c\:5176\:81ea\:53d8\:91cf \\!\\(\\*StyleBox[\\\"x\\\", \\\"TI\\\"]\
+\\) \:7684\:8303\:56f4\:4e3a\:4ece \\!\\(\\*SubscriptBox[StyleBox[\\\"x\\\", \
+\\\"TI\\\"], StyleBox[\\\"min\\\", \\\"TI\\\"]]\\) \:5230 \
+\\!\\(\\*SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \
+\\\"TI\\\"]]\\). \\n\\!\\(\\*RowBox[{\\\"Plot\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{SubscriptBox[StyleBox[\\\"f\\\", \
+\\\"TI\\\"], StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"2\\\", \
+\\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\
+\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \
+\\\",\\\", SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"min\\\", \\\"TI\\\"]], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \
+\\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) \:7ed8\:5236\:591a\:4e2a\:51fd\
+\:6570 \\!\\(\\*SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], \
+StyleBox[\\\"i\\\", \\\"TI\\\"]]\\). \\n\\!\\(\\*RowBox[{\\\"Plot\\\", \
+\\\"[\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"\[Ellipsis]\\\", \
+\\\"TR\\\"], \\\",\\\", RowBox[{StyleBox[\\\"w\\\", \\\"TI\\\"], \\\"[\\\", \
+SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"i\\\", \
+\\\"TI\\\"]], \\\"]\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \
+\\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\
+\"]}], \\\"]\\\"}]\\) \:7ed8\:5236 \\!\\(\\*SubscriptBox[StyleBox[\\\"f\\\", \
+\\\"TI\\\"], StyleBox[\\\"i\\\", \\\"TI\\\"]]\\) \:ff0c\:5176\:7279\:5f81\
+\:7531\:7b26\:53f7\:5c01\:88c5 \\!\\(\\*StyleBox[\\\"w\\\", \\\"TI\\\"]\\) \
+\:6240\:5b9a\:4e49.\\n\\!\\(\\*RowBox[{\\\"Plot\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"], \\\",\\\", \
+RowBox[{RowBox[{\\\"{\\\", StyleBox[\\\"x\\\", \\\"TI\\\"], \\\"}\\\"}], \\\"\
+\[Element]\\\", StyleBox[\\\"reg\\\", \\\"TI\\\"]}]}], \\\"]\\\"}]\\) \:53d8\
+\:91cf \\!\\(\\*StyleBox[\\\"x\\\", \\\"TI\\\"]\\) \:4ece\:51e0\:4f55\:533a\
+\:57df \\!\\(\\*StyleBox[\\\"reg\\\", \\\"TI\\\"]\\) \:53d6\:503c.\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   TemplateBox[{
+                    
+                    TemplateBox[{
+                    "\"Local \[RightGuillemet]\"", "paclet:ref/Plot", 
+                    "paclet:ref/Plot", "Link", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"], "\"  \"", 
+                    StyleBox[
+                    "\"|\"", "InformationRowLabel", StripOnInput -> False], 
+                    "\"  \"", 
+                    TemplateBox[{"\"Web \[RightGuillemet]\"", {
+                    URL[
+                    "http://reference.wolfram.com/language/ref/Plot.html"], 
+                    None}, "http://reference.wolfram.com/language/ref/Plot.\
+html", "Hyperlink", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   PaneSelectorBox[{True->
+                    ButtonBox[
+                    PaneSelectorBox[{False->
+                    TemplateBox[{"\[ThickSpace]", "\"\[ThickSpace]\"", 
+                    StyleBox[
+                    "\"Options\"", "InformationRowLabel", StripOnInput -> 
+                    False], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "DownPointerOpener"]]},
+                    "RowWithSeparators"], True->
+                    TemplateBox[{"\[ThickSpace]", "\"\[ThickSpace]\"", 
+                    StyleBox[
+                    "\"Options\"", "InformationRowLabel", StripOnInput -> 
+                    False], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "DownPointerOpenerHot"]]},
+                    "RowWithSeparators"]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                    Appearance->None,
+                    BaseStyle->None,
+                    
+                    ButtonFunction:>(Part[System`InformationDump`open$$, 3] = 
+                    False),
+                    Evaluator->Automatic,
+                    FrameMargins->0,
+                    ImageMargins->0,
+                    Method->"Preemptive"], False->
+                    ButtonBox[
+                    PaneSelectorBox[{False->
+                    TemplateBox[{"\[ThickSpace]", "\"\[ThickSpace]\"", 
+                    StyleBox[
+                    "\"Options\"", "InformationRowLabel", StripOnInput -> 
+                    False], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "RightPointerOpener"]]},
+                    "RowWithSeparators"], True->
+                    TemplateBox[{"\[ThickSpace]", "\"\[ThickSpace]\"", 
+                    StyleBox[
+                    "\"Options\"", "InformationRowLabel", StripOnInput -> 
+                    False], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "RightPointerOpenerHot"]]},
+                    "RowWithSeparators"]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                    Appearance->None,
+                    BaseStyle->None,
+                    
+                    ButtonFunction:>(Part[System`InformationDump`open$$, 3] = 
+                    True),
+                    Evaluator->Automatic,
+                    FrameMargins->0,
+                    ImageMargins->0,
+                    Method->"Preemptive"]}, Dynamic[
+                    FEPrivate`Part[System`InformationDump`open$$, 3]]], 
+                   PaneSelectorBox[{True->GridBox[{
+                    {
+                    RowBox[{"AlignmentPoint", "\[Rule]", "Center"}]},
+                    {
+                    RowBox[{"AspectRatio", "\[Rule]", 
+                    FractionBox["1", "GoldenRatio"]}]},
+                    {
+                    RowBox[{"Axes", "\[Rule]", "True"}]},
+                    {
+                    RowBox[{"AxesLabel", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"AxesOrigin", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"AxesStyle", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"Background", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"BaselinePosition", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"BaseStyle", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"ClippingStyle", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"ColorFunction", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ColorFunctionScaling", "\[Rule]", "True"}]},
+                    {
+                    RowBox[{"ColorOutput", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ContentSelectable", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{
+                    "CoordinatesToolOptions", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{
+                    "DisplayFunction", "\[RuleDelayed]", "$DisplayFunction"}]},
+                    {
+                    RowBox[{"Epilog", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"Evaluated", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"EvaluationMonitor", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"Exclusions", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ExclusionsStyle", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"Filling", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"FillingStyle", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{
+                    "FormatType", "\[RuleDelayed]", "TraditionalForm"}]},
+                    {
+                    RowBox[{"Frame", "\[Rule]", "False"}]},
+                    {
+                    RowBox[{"FrameLabel", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"FrameStyle", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"FrameTicks", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"FrameTicksStyle", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"GridLines", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"GridLinesStyle", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"ImageMargins", "\[Rule]", "0.`"}]},
+                    {
+                    RowBox[{"ImagePadding", "\[Rule]", "All"}]},
+                    {
+                    RowBox[{"ImageSize", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ImageSizeRaw", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"LabelingSize", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"LabelStyle", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"MaxRecursion", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"Mesh", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"MeshFunctions", "\[Rule]", 
+                    RowBox[{"{", 
+                    RowBox[{"#1", "&"}], "}"}]}]},
+                    {
+                    RowBox[{"MeshShading", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"MeshStyle", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"Method", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{
+                    "PerformanceGoal", "\[RuleDelayed]", "$PerformanceGoal"}]},
+                    {
+                    RowBox[{"PlotLabel", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"PlotLabels", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"PlotLayout", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"PlotLegends", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"PlotPoints", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"PlotRange", "\[Rule]", 
+                    RowBox[{"{", 
+                    RowBox[{"Full", ",", "Automatic"}], "}"}]}]},
+                    {
+                    RowBox[{"PlotRangeClipping", "\[Rule]", "True"}]},
+                    {
+                    RowBox[{"PlotRangePadding", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"PlotRegion", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"PlotStyle", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"PlotTheme", "\[RuleDelayed]", "$PlotTheme"}]},
+                    {
+                    RowBox[{"PreserveImageOptions", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"Prolog", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"RegionFunction", "\[Rule]", 
+                    RowBox[{"(", 
+                    RowBox[{"True", "&"}], ")"}]}]},
+                    {
+                    RowBox[{"RotateLabel", "\[Rule]", "True"}]},
+                    {
+                    RowBox[{"ScalingFunctions", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"TargetUnits", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"Ticks", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"TicksStyle", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{
+                    "WorkingPrecision", "\[Rule]", "MachinePrecision"}]},
+                    {
+                    StyleBox[
+                    
+                    TemplateBox[{
+                    "\"(\"", "\"\[InvisibleSpace]\"", "64", "\" total)\""},
+                    "RowDefault"], "InformationRowOpener",
+                    StripOnInput->False]}
+                    },
+                    BaselinePosition->{Baseline, {1, 1}},
+                    DefaultBaseStyle->"Column",
+                    GridBoxAlignment->{"Columns" -> {{Left}}},
+                    GridBoxItemSize->{
+                    "Columns" -> {{Automatic}}, "Rows" -> {{1.}}}], False->
+                    RowBox[{
+                    RowBox[{"AlignmentPoint", "\[Rule]", "Center"}], 
+                    "\[ThinSpace]", 
+                    StyleBox["\<\"\[Ellipsis]\"\>", "InformationRowOpener",
+                    StripOnInput->False], "\[ThinSpace]", 
+                    StyleBox[
+                    
+                    TemplateBox[{
+                    "\"(\"", "\"\[InvisibleSpace]\"", "64", "\" total)\""},
+                    "RowDefault"], "InformationRowOpener",
+                    StripOnInput->False]}]}, Dynamic[
+                    FEPrivate`Part[System`InformationDump`open$$, 3]],
+                    BaselinePosition->Baseline,
+                    ImageSize->Automatic]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Attributes\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Attributes\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Attributes", "Tooltip"]& ], 
+                   RowBox[{"{", 
+                    RowBox[{
+                    "HoldAll", ",", "Protected", ",", "ReadProtected"}], 
+                    "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"System`Plot\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"],
+               ImageSizeCache->{10., {3., 7.}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"],
+               ImageSizeCache->{10., {3., 7.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {4., 9.}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {4., 9.}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Plot",
+              ButtonNote->"paclet:ref/Plot"],
+             "\"paclet:ref/Plot\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Plot\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"f\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) \:7ed8\
+\:5236\:51fd\:6570 \\!\\(\\*StyleBox[\\\"f\\\", \\\"TI\\\"]\\) \:7684\:56fe\
+\:7ebf\:ff0c\:5176\:81ea\:53d8\:91cf \\!\\(\\*StyleBox[\\\"x\\\", \\\"TI\\\"]\
+\\) \:7684\:8303\:56f4\:4e3a\:4ece \\!\\(\\*SubscriptBox[StyleBox[\\\"x\\\", \
+\\\"TI\\\"], StyleBox[\\\"min\\\", \\\"TI\\\"]]\\) \:5230 \
+\\!\\(\\*SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \
+\\\"TI\\\"]]\\). \\n\\!\\(\\*RowBox[{\\\"Plot\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{SubscriptBox[StyleBox[\\\"f\\\", \
+\\\"TI\\\"], StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"2\\\", \
+\\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\
+\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \
+\\\",\\\", SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"min\\\", \\\"TI\\\"]], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \
+\\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) \:7ed8\:5236\:591a\:4e2a\:51fd\
+\:6570 \\!\\(\\*SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], \
+StyleBox[\\\"i\\\", \\\"TI\\\"]]\\). \\n\\!\\(\\*RowBox[{\\\"Plot\\\", \
+\\\"[\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"\[Ellipsis]\\\", \
+\\\"TR\\\"], \\\",\\\", RowBox[{StyleBox[\\\"w\\\", \\\"TI\\\"], \\\"[\\\", \
+SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"i\\\", \
+\\\"TI\\\"]], \\\"]\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \
+\\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\
+\"]}], \\\"]\\\"}]\\) \:7ed8\:5236 \\!\\(\\*SubscriptBox[StyleBox[\\\"f\\\", \
+\\\"TI\\\"], StyleBox[\\\"i\\\", \\\"TI\\\"]]\\) \:ff0c\:5176\:7279\:5f81\
+\:7531\:7b26\:53f7\:5c01\:88c5 \\!\\(\\*StyleBox[\\\"w\\\", \\\"TI\\\"]\\) \
+\:6240\:5b9a\:4e49.\\n\\!\\(\\*RowBox[{\\\"Plot\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"], \\\",\\\", \
+RowBox[{RowBox[{\\\"{\\\", StyleBox[\\\"x\\\", \\\"TI\\\"], \\\"}\\\"}], \\\"\
+\[Element]\\\", StyleBox[\\\"reg\\\", \\\"TI\\\"]}]}], \\\"]\\\"}]\\) \:53d8\
+\:91cf \\!\\(\\*StyleBox[\\\"x\\\", \\\"TI\\\"]\\) \:4ece\:51e0\:4f55\:533a\
+\:57df \\!\\(\\*StyleBox[\\\"reg\\\", \\\"TI\\\"]\\) \:53d6\:503c.\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {3., 7.}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {3., 7.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "\!\(\*RowBox[{\"Plot\", \"[\", RowBox[{StyleBox[\"f\", \"TI\"], \",\", \
+RowBox[{\"{\", RowBox[{StyleBox[\"x\", \"TI\"], \",\", SubscriptBox[StyleBox[\
+\"x\", \"TI\"], StyleBox[\"min\", \"TI\"]], \",\", \
+SubscriptBox[StyleBox[\"x\", \"TI\"], StyleBox[\"max\", \"TI\"]]}], \
+\"}\"}]}], \"]\"}]\) \:7ed8\:5236\:51fd\:6570 \!\(\*StyleBox[\"f\", \"TI\"]\) \
+\:7684\:56fe\:7ebf\:ff0c\:5176\:81ea\:53d8\:91cf \!\(\*StyleBox[\"x\", \
+\"TI\"]\) \:7684\:8303\:56f4\:4e3a\:4ece \!\(\*SubscriptBox[StyleBox[\"x\", \
+\"TI\"], StyleBox[\"min\", \"TI\"]]\) \:5230 \
+\!\(\*SubscriptBox[StyleBox[\"x\", \"TI\"], StyleBox[\"max\", \"TI\"]]\). \n\
+\!\(\*RowBox[{\"Plot\", \"[\", RowBox[{RowBox[{\"{\", \
+RowBox[{SubscriptBox[StyleBox[\"f\", \"TI\"], StyleBox[\"1\", \"TR\"]], \
+\",\", SubscriptBox[StyleBox[\"f\", \"TI\"], StyleBox[\"2\", \"TR\"]], \",\", \
+StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}], \",\", RowBox[{\"{\", \
+RowBox[{StyleBox[\"x\", \"TI\"], \",\", SubscriptBox[StyleBox[\"x\", \"TI\"], \
+StyleBox[\"min\", \"TI\"]], \",\", SubscriptBox[StyleBox[\"x\", \"TI\"], \
+StyleBox[\"max\", \"TI\"]]}], \"}\"}]}], \"]\"}]\) \:7ed8\:5236\:591a\:4e2a\
+\:51fd\:6570 \!\(\*SubscriptBox[StyleBox[\"f\", \"TI\"], StyleBox[\"i\", \"TI\
+\"]]\). \n\!\(\*RowBox[{\"Plot\", \"[\", RowBox[{RowBox[{\"{\", \
+RowBox[{StyleBox[\"\[Ellipsis]\", \"TR\"], \",\", RowBox[{StyleBox[\"w\", \
+\"TI\"], \"[\", SubscriptBox[StyleBox[\"f\", \"TI\"], StyleBox[\"i\", \
+\"TI\"]], \"]\"}], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}], \
+\",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"]\"}]\) \:7ed8\:5236 \
+\!\(\*SubscriptBox[StyleBox[\"f\", \"TI\"], StyleBox[\"i\", \"TI\"]]\) \:ff0c\
+\:5176\:7279\:5f81\:7531\:7b26\:53f7\:5c01\:88c5 \!\(\*StyleBox[\"w\", \
+\"TI\"]\) \:6240\:5b9a\:4e49.\n\!\(\*RowBox[{\"Plot\", \"[\", \
+RowBox[{StyleBox[\"\[Ellipsis]\", \"TR\"], \",\", RowBox[{RowBox[{\"{\", \
+StyleBox[\"x\", \"TI\"], \"}\"}], \"\[Element]\", StyleBox[\"reg\", \
+\"TI\"]}]}], \"]\"}]\) \:53d8\:91cf \!\(\*StyleBox[\"x\", \"TI\"]\) \:4ece\
+\:51e0\:4f55\:533a\:57df \!\(\*StyleBox[\"reg\", \"TI\"]\) \:53d6\:503c.", 
+    "Documentation" -> <|
+     "Local" -> "paclet:ref/Plot", "Web" -> 
+      "http://reference.wolfram.com/language/ref/Plot.html"|>, "OwnValues" -> 
+    None, "UpValues" -> None, "DownValues" -> None, "SubValues" -> None, 
+    "DefaultValues" -> None, "NValues" -> None, "FormatValues" -> None, 
+    "Options" -> {
+     AlignmentPoint -> Center, AspectRatio -> GoldenRatio^(-1), Axes -> True, 
+      AxesLabel -> None, AxesOrigin -> Automatic, AxesStyle -> {}, Background -> 
+      None, BaselinePosition -> Automatic, BaseStyle -> {}, ClippingStyle -> 
+      None, ColorFunction -> Automatic, ColorFunctionScaling -> True, 
+      ColorOutput -> Automatic, ContentSelectable -> Automatic, 
+      CoordinatesToolOptions -> Automatic, 
+      DisplayFunction :> $DisplayFunction, Epilog -> {}, Evaluated -> 
+      Automatic, EvaluationMonitor -> None, Exclusions -> Automatic, 
+      ExclusionsStyle -> None, Filling -> None, FillingStyle -> Automatic, 
+      FormatType :> TraditionalForm, Frame -> False, FrameLabel -> None, 
+      FrameStyle -> {}, FrameTicks -> Automatic, FrameTicksStyle -> {}, 
+      GridLines -> None, GridLinesStyle -> {}, ImageMargins -> 0., 
+      ImagePadding -> All, ImageSize -> Automatic, ImageSizeRaw -> Automatic, 
+      LabelingSize -> Automatic, LabelStyle -> {}, MaxRecursion -> Automatic, 
+      Mesh -> None, MeshFunctions -> {#& }, MeshShading -> None, MeshStyle -> 
+      Automatic, Method -> Automatic, PerformanceGoal :> $PerformanceGoal, 
+      PlotLabel -> None, PlotLabels -> None, PlotLayout -> Automatic, 
+      PlotLegends -> None, PlotPoints -> Automatic, 
+      PlotRange -> {Full, Automatic}, PlotRangeClipping -> True, 
+      PlotRangePadding -> Automatic, PlotRegion -> Automatic, PlotStyle -> 
+      Automatic, PlotTheme :> $PlotTheme, PreserveImageOptions -> Automatic, 
+      Prolog -> {}, RegionFunction -> (True& ), RotateLabel -> True, 
+      ScalingFunctions -> None, TargetUnits -> Automatic, Ticks -> Automatic, 
+      TicksStyle -> {}, WorkingPrecision -> MachinePrecision}, 
+    "Attributes" -> {HoldAll, Protected, ReadProtected}, "FullName" -> 
+    "System`Plot"|>, False]]], "Output",
+ CellChangeTimes->{3.933487923404134*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"7d365783-c600-4406-a175-487467c8718c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "Plot*"}]], "Input",
+ CellChangeTimes->{{3.9334879340324717`*^9, 3.9334879356597214`*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"11af2ed3-cce2-4c98-a6da-600cca2ced37"],
+
+Cell[BoxData[
+ StyleBox[
+  FrameBox[GridBox[{
+     {
+      DynamicModuleBox[{Typeset`open$$ = True}, 
+       PaneSelectorBox[{False->
+        ButtonBox[
+         RowBox[{
+          
+          DynamicBox[FEPrivate`FrontEndResource[
+           "FEBitmaps", "RightPointerOpener"]], " ", 
+          StyleBox["System`", "InformationGridGroupHeader"]}],
+         Appearance->None,
+         BaseStyle->"InformationGridLink",
+         ButtonFunction:>FEPrivate`Set[Typeset`open$$, True],
+         Evaluator->Automatic,
+         Method->"Preemptive"], True->
+        PaneBox[GridBox[{
+           {
+            ButtonBox[
+             RowBox[{
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {3., 7.}}], " ", 
+              StyleBox["System`", "InformationGridGroupHeader"]}],
+             Appearance->None,
+             BaseStyle->"InformationGridLink",
+             ButtonFunction:>FEPrivate`Set[Typeset`open$$, False],
+             Evaluator->Automatic,
+             Method->"Preemptive"]},
+           {
+            PaneBox[GridBox[{
+               {
+                ButtonBox[
+                 StyleBox["Plot", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "Plot", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotMarkers", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotMarkers", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["Plot3D", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "Plot3D", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotPoints", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotPoints", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["Plot3Matrix", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "Plot3Matrix", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotRange", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotRange", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["PlotDivision", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotDivision", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotRangeClipping", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotRangeClipping", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["PlotJoined", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotJoined", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotRangeClipPlanesStyle", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotRangeClipPlanesStyle", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["PlotLabel", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotLabel", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotRangePadding", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotRangePadding", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["PlotLabels", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotLabels", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotRegion", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotRegion", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["PlotLayout", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotLayout", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotStyle", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotStyle", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["PlotLegends", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotLegends", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["PlotTheme", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", {
+                   "PlotTheme", "System`"}, False},
+                 ButtonNote->"System`",
+                 Evaluator->Automatic]}
+              },
+              DefaultBaseStyle->"Text",
+              
+              GridBoxAlignment->{
+               "Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+              GridBoxItemSize->{"Columns" -> {{
+                   Scaled[0.475]}}}],
+             ImageMargins->{{10, 0}, {0, 2}}]}
+          },
+          GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}],
+         FrameMargins->{{0, 0}, {8, 0}}]}, Dynamic[Typeset`open$$],
+        ImageSize->Automatic]]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+    GridBoxDividers->{"ColumnsIndexed" -> {{False}}, "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.5599999999999999]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.8]}, 
+        Offset[0.2]}}],
+   BaseStyle->"InformationTitleFrame"], "InformationGridPlain"]], "Output",
+ CellChangeTimes->{3.9334879364499207`*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"7b8e4785-c619-472e-b4ed-23297466db6a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = False, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"]], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"]]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Plot3D",
+              ButtonNote->"paclet:ref/Plot3D"],
+             "\"paclet:ref/Plot3D\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Plot3D\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"f\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\
+\", RowBox[{StyleBox[\\\"y\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"y\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"y\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) \:4ea7\
+\:751f\:51fd\:6570 \\!\\(\\*StyleBox[\\\"f\\\", \\\"TI\\\"]\\) \:5728 \
+\\!\\(\\*StyleBox[RowBox[{\\\" \\\", \\\"x\\\"}], \\\"TI\\\"]\\) \:548c \
+\\!\\(\\*StyleBox[\\\"y\\\", \\\"TI\\\"]\\) \:4e0a\:7684\:4e09\:7ef4\:56fe\
+\:5f62.\\n\\!\\(\\*RowBox[{\\\"Plot3D\\\", \\\"[\\\", RowBox[{RowBox[{\\\"{\\\
+\", RowBox[{SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\
+\", RowBox[{StyleBox[\\\"y\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"y\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"y\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) \:7ed8\
+\:5236\:51e0\:4e2a\:51fd\:6570.\\n\\!\\(\\*RowBox[{\\\"Plot3D\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"], \
+\\\",\\\", RowBox[{StyleBox[\\\"w\\\", \\\"TI\\\"], \\\"[\\\", \
+SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"i\\\", \
+\\\"TI\\\"]], \\\"]\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \
+\\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\
+\"]}], \\\"]\\\"}]\\) \:7ed8\:5236\:7279\:5f81\:7531\:7b26\:53f7\:5c01\:88c5 \
+\\!\\(\\*StyleBox[\\\"w\\\", \\\"TI\\\"]\\) \:5b9a\:4e49\:7684 \
+\\!\\(\\*SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"i\\\", \\\
+\"TI\\\"]]\\).\\n\\!\\(\\*RowBox[{\\\"Plot3D\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"], \\\",\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \
+\\\",\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\"}], \
+\\\"\[Element]\\\", StyleBox[\\\"reg\\\", \\\"TI\\\"]}]}], \\\"]\\\"}]\\) \
+\:53d8\:91cf \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\
+\"], \\\",\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\"}]\\) \
+\:4ece\:51e0\:4f55\:533a\:57df \\!\\(\\*StyleBox[\\\"reg\\\", \\\"TI\\\"]\\) \
+\:53d6\:503c. \"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   TemplateBox[{
+                    
+                    TemplateBox[{
+                    "\"Local \[RightGuillemet]\"", "paclet:ref/Plot3D", 
+                    "paclet:ref/Plot3D", "Link", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"], "\"  \"", 
+                    StyleBox[
+                    "\"|\"", "InformationRowLabel", StripOnInput -> False], 
+                    "\"  \"", 
+                    TemplateBox[{"\"Web \[RightGuillemet]\"", {
+                    URL[
+                    "http://reference.wolfram.com/language/ref/Plot3D.html"], 
+                    None}, "http://reference.wolfram.com/language/ref/Plot3D.\
+html", "Hyperlink", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   PaneSelectorBox[{True->
+                    ButtonBox[
+                    PaneSelectorBox[{False->
+                    TemplateBox[{"\[ThickSpace]", "\"\[ThickSpace]\"", 
+                    StyleBox[
+                    "\"Options\"", "InformationRowLabel", StripOnInput -> 
+                    False], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "DownPointerOpener"]]},
+                    "RowWithSeparators"], True->
+                    TemplateBox[{"\[ThickSpace]", "\"\[ThickSpace]\"", 
+                    StyleBox[
+                    "\"Options\"", "InformationRowLabel", StripOnInput -> 
+                    False], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "DownPointerOpenerHot"]]},
+                    "RowWithSeparators"]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                    Appearance->None,
+                    BaseStyle->None,
+                    
+                    ButtonFunction:>(Part[System`InformationDump`open$$, 3] = 
+                    False),
+                    Evaluator->Automatic,
+                    FrameMargins->0,
+                    ImageMargins->0,
+                    Method->"Preemptive"], False->
+                    ButtonBox[
+                    PaneSelectorBox[{False->
+                    TemplateBox[{"\[ThickSpace]", "\"\[ThickSpace]\"", 
+                    StyleBox[
+                    "\"Options\"", "InformationRowLabel", StripOnInput -> 
+                    False], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "RightPointerOpener"]]},
+                    "RowWithSeparators"], True->
+                    TemplateBox[{"\[ThickSpace]", "\"\[ThickSpace]\"", 
+                    StyleBox[
+                    "\"Options\"", "InformationRowLabel", StripOnInput -> 
+                    False], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "RightPointerOpenerHot"]]},
+                    "RowWithSeparators"]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                    Appearance->None,
+                    BaseStyle->None,
+                    
+                    ButtonFunction:>(Part[System`InformationDump`open$$, 3] = 
+                    True),
+                    Evaluator->Automatic,
+                    FrameMargins->0,
+                    ImageMargins->0,
+                    Method->"Preemptive"]}, Dynamic[
+                    FEPrivate`Part[System`InformationDump`open$$, 3]]], 
+                   PaneSelectorBox[{True->GridBox[{
+                    {
+                    RowBox[{"AlignmentPoint", "\[Rule]", "Center"}]},
+                    {
+                    RowBox[{"AspectRatio", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"AutomaticImageSize", "\[Rule]", "False"}]},
+                    {
+                    RowBox[{"Axes", "\[Rule]", "True"}]},
+                    {
+                    RowBox[{"AxesEdge", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"AxesLabel", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"AxesOrigin", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"AxesStyle", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"Background", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"BaselinePosition", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"BaseStyle", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"BoundaryStyle", "\[Rule]", 
+                    TemplateBox[<|"color" -> GrayLevel[0]|>,
+                    "GrayLevelColorSwatchTemplate"]}]},
+                    {
+                    RowBox[{"Boxed", "\[Rule]", "True"}]},
+                    {
+                    RowBox[{"BoxRatios", "\[Rule]", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "1", ",", "0.4`"}], "}"}]}]},
+                    {
+                    RowBox[{"BoxStyle", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"ClippingStyle", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ClipPlanes", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"ClipPlanesStyle", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ColorFunction", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ColorFunctionScaling", "\[Rule]", "True"}]},
+                    {
+                    RowBox[{"ColorOutput", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ContentSelectable", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ControllerLinking", "\[Rule]", "False"}]},
+                    {
+                    RowBox[{"ControllerMethod", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ControllerPath", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{
+                    "CoordinatesToolOptions", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{
+                    "DisplayFunction", "\[RuleDelayed]", "$DisplayFunction"}]},
+                    {
+                    RowBox[{"Epilog", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"Evaluated", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"EvaluationMonitor", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"Exclusions", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ExclusionsStyle", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"FaceGrids", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"FaceGridsStyle", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"Filling", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"FillingStyle", "\[Rule]", 
+                    RowBox[{"Opacity", "[", "0.5`", "]"}]}]},
+                    {
+                    RowBox[{
+                    "FormatType", "\[RuleDelayed]", "TraditionalForm"}]},
+                    {
+                    RowBox[{"ImageMargins", "\[Rule]", "0.`"}]},
+                    {
+                    RowBox[{"ImagePadding", "\[Rule]", "All"}]},
+                    {
+                    RowBox[{"ImageSize", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ImageSizeRaw", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"LabelingSize", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"LabelStyle", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"Lighting", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"MaxRecursion", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"Mesh", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"MeshFunctions", "\[Rule]", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"#1", "&"}], ",", 
+                    RowBox[{"#2", "&"}]}], "}"}]}]},
+                    {
+                    RowBox[{"MeshShading", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"MeshStyle", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"Method", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"NormalsFunction", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{
+                    "PerformanceGoal", "\[RuleDelayed]", "$PerformanceGoal"}]},
+                    {
+                    RowBox[{"PlotLabel", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"PlotLabels", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"PlotLegends", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"PlotPoints", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"PlotRange", "\[Rule]", 
+                    RowBox[{"{", 
+                    RowBox[{"Full", ",", "Full", ",", "Automatic"}], "}"}]}]},
+                    {
+                    RowBox[{"PlotRangePadding", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"PlotRegion", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"PlotStyle", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"PlotTheme", "\[RuleDelayed]", "$PlotTheme"}]},
+                    {
+                    RowBox[{"PreserveImageOptions", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"Prolog", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"RegionFunction", "\[Rule]", 
+                    RowBox[{"(", 
+                    RowBox[{"True", "&"}], ")"}]}]},
+                    {
+                    RowBox[{"RotationAction", "\[Rule]", "\<\"Fit\"\>"}]},
+                    {
+                    RowBox[{"ScalingFunctions", "\[Rule]", "None"}]},
+                    {
+                    RowBox[{"SphericalRegion", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"TargetUnits", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{
+                    "TextureCoordinateFunction", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{
+                    "TextureCoordinateScaling", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"Ticks", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"TicksStyle", "\[Rule]", 
+                    RowBox[{"{", "}"}]}]},
+                    {
+                    RowBox[{"TouchscreenAutoZoom", "\[Rule]", "False"}]},
+                    {
+                    RowBox[{"ViewAngle", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ViewCenter", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ViewMatrix", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ViewPoint", "\[Rule]", 
+                    RowBox[{"{", 
+                    RowBox[{"1.3`", ",", 
+                    RowBox[{"-", "2.4`"}], ",", "2.`"}], "}"}]}]},
+                    {
+                    RowBox[{"ViewProjection", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ViewRange", "\[Rule]", "All"}]},
+                    {
+                    RowBox[{"ViewVector", "\[Rule]", "Automatic"}]},
+                    {
+                    RowBox[{"ViewVertical", "\[Rule]", 
+                    RowBox[{"{", 
+                    RowBox[{"0", ",", "0", ",", "1"}], "}"}]}]},
+                    {
+                    RowBox[{
+                    "WorkingPrecision", "\[Rule]", "MachinePrecision"}]},
+                    {
+                    StyleBox[
+                    
+                    TemplateBox[{
+                    "\"(\"", "\"\[InvisibleSpace]\"", "82", "\" total)\""},
+                    "RowDefault"], "InformationRowOpener",
+                    StripOnInput->False]}
+                    },
+                    BaselinePosition->{Baseline, {1, 1}},
+                    DefaultBaseStyle->"Column",
+                    GridBoxAlignment->{"Columns" -> {{Left}}},
+                    
+                    GridBoxItemSize->{
+                    "Columns" -> {{Automatic}}, "Rows" -> {{1.}}}], False->
+                    RowBox[{
+                    RowBox[{"AlignmentPoint", "\[Rule]", "Center"}], 
+                    "\[ThinSpace]", 
+                    StyleBox["\<\"\[Ellipsis]\"\>", "InformationRowOpener",
+                    StripOnInput->False], "\[ThinSpace]", 
+                    StyleBox[
+                    
+                    TemplateBox[{
+                    "\"(\"", "\"\[InvisibleSpace]\"", "82", "\" total)\""},
+                    "RowDefault"], "InformationRowOpener",
+                    StripOnInput->False]}]}, Dynamic[
+                    FEPrivate`Part[System`InformationDump`open$$, 3]],
+                    BaselinePosition->Baseline,
+                    ImageSize->Automatic]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Attributes\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Attributes\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Attributes", "Tooltip"]& ], 
+                   RowBox[{"{", 
+                    RowBox[{
+                    "HoldAll", ",", "Protected", ",", "ReadProtected"}], 
+                    "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"System`Plot3D\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {4., 9.}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {4., 9.}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Plot3D",
+              ButtonNote->"paclet:ref/Plot3D"],
+             "\"paclet:ref/Plot3D\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Plot3D\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"f\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\
+\", RowBox[{StyleBox[\\\"y\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"y\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"y\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) \:4ea7\
+\:751f\:51fd\:6570 \\!\\(\\*StyleBox[\\\"f\\\", \\\"TI\\\"]\\) \:5728 \
+\\!\\(\\*StyleBox[RowBox[{\\\" \\\", \\\"x\\\"}], \\\"TI\\\"]\\) \:548c \
+\\!\\(\\*StyleBox[\\\"y\\\", \\\"TI\\\"]\\) \:4e0a\:7684\:4e09\:7ef4\:56fe\
+\:5f62.\\n\\!\\(\\*RowBox[{\\\"Plot3D\\\", \\\"[\\\", RowBox[{RowBox[{\\\"{\\\
+\", RowBox[{SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"x\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\
+\", RowBox[{StyleBox[\\\"y\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"y\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"y\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) \:7ed8\
+\:5236\:51e0\:4e2a\:51fd\:6570.\\n\\!\\(\\*RowBox[{\\\"Plot3D\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"], \
+\\\",\\\", RowBox[{StyleBox[\\\"w\\\", \\\"TI\\\"], \\\"[\\\", \
+SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"i\\\", \
+\\\"TI\\\"]], \\\"]\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \
+\\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\
+\"]}], \\\"]\\\"}]\\) \:7ed8\:5236\:7279\:5f81\:7531\:7b26\:53f7\:5c01\:88c5 \
+\\!\\(\\*StyleBox[\\\"w\\\", \\\"TI\\\"]\\) \:5b9a\:4e49\:7684 \
+\\!\\(\\*SubscriptBox[StyleBox[\\\"f\\\", \\\"TI\\\"], StyleBox[\\\"i\\\", \\\
+\"TI\\\"]]\\).\\n\\!\\(\\*RowBox[{\\\"Plot3D\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"\[Ellipsis]\\\", \\\"TR\\\"], \\\",\\\", \
+RowBox[{RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\"], \
+\\\",\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\"}], \
+\\\"\[Element]\\\", StyleBox[\\\"reg\\\", \\\"TI\\\"]}]}], \\\"]\\\"}]\\) \
+\:53d8\:91cf \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"x\\\", \\\"TI\\\
+\"], \\\",\\\", StyleBox[\\\"y\\\", \\\"TI\\\"]}], \\\"}\\\"}]\\) \
+\:4ece\:51e0\:4f55\:533a\:57df \\!\\(\\*StyleBox[\\\"reg\\\", \\\"TI\\\"]\\) \
+\:53d6\:503c. \"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {3., 7.}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {3., 7.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "\!\(\*RowBox[{\"Plot3D\", \"[\", RowBox[{StyleBox[\"f\", \"TI\"], \",\", \
+RowBox[{\"{\", RowBox[{StyleBox[\"x\", \"TI\"], \",\", SubscriptBox[StyleBox[\
+\"x\", \"TI\"], StyleBox[\"min\", \"TI\"]], \",\", \
+SubscriptBox[StyleBox[\"x\", \"TI\"], StyleBox[\"max\", \"TI\"]]}], \"}\"}], \
+\",\", RowBox[{\"{\", RowBox[{StyleBox[\"y\", \"TI\"], \",\", \
+SubscriptBox[StyleBox[\"y\", \"TI\"], StyleBox[\"min\", \"TI\"]], \",\", \
+SubscriptBox[StyleBox[\"y\", \"TI\"], StyleBox[\"max\", \"TI\"]]}], \
+\"}\"}]}], \"]\"}]\) \:4ea7\:751f\:51fd\:6570 \!\(\*StyleBox[\"f\", \"TI\"]\) \
+\:5728 \!\(\*StyleBox[RowBox[{\" \", \"x\"}], \"TI\"]\) \:548c \
+\!\(\*StyleBox[\"y\", \"TI\"]\) \:4e0a\:7684\:4e09\:7ef4\:56fe\:5f62.\n\
+\!\(\*RowBox[{\"Plot3D\", \"[\", RowBox[{RowBox[{\"{\", \
+RowBox[{SubscriptBox[StyleBox[\"f\", \"TI\"], StyleBox[\"1\", \"TR\"]], \
+\",\", SubscriptBox[StyleBox[\"f\", \"TI\"], StyleBox[\"2\", \"TR\"]], \",\", \
+StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}], \",\", RowBox[{\"{\", \
+RowBox[{StyleBox[\"x\", \"TI\"], \",\", SubscriptBox[StyleBox[\"x\", \"TI\"], \
+StyleBox[\"min\", \"TI\"]], \",\", SubscriptBox[StyleBox[\"x\", \"TI\"], \
+StyleBox[\"max\", \"TI\"]]}], \"}\"}], \",\", RowBox[{\"{\", \
+RowBox[{StyleBox[\"y\", \"TI\"], \",\", SubscriptBox[StyleBox[\"y\", \"TI\"], \
+StyleBox[\"min\", \"TI\"]], \",\", SubscriptBox[StyleBox[\"y\", \"TI\"], \
+StyleBox[\"max\", \"TI\"]]}], \"}\"}]}], \"]\"}]\) \:7ed8\:5236\:51e0\:4e2a\
+\:51fd\:6570.\n\!\(\*RowBox[{\"Plot3D\", \"[\", RowBox[{RowBox[{\"{\", \
+RowBox[{StyleBox[\"\[Ellipsis]\", \"TR\"], \",\", RowBox[{StyleBox[\"w\", \
+\"TI\"], \"[\", SubscriptBox[StyleBox[\"f\", \"TI\"], StyleBox[\"i\", \
+\"TI\"]], \"]\"}], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}], \
+\",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"]\"}]\) \
+\:7ed8\:5236\:7279\:5f81\:7531\:7b26\:53f7\:5c01\:88c5 \!\(\*StyleBox[\"w\", \
+\"TI\"]\) \:5b9a\:4e49\:7684 \!\(\*SubscriptBox[StyleBox[\"f\", \"TI\"], \
+StyleBox[\"i\", \"TI\"]]\).\n\!\(\*RowBox[{\"Plot3D\", \"[\", \
+RowBox[{StyleBox[\"\[Ellipsis]\", \"TR\"], \",\", RowBox[{RowBox[{\"{\", \
+RowBox[{StyleBox[\"x\", \"TI\"], \",\", StyleBox[\"y\", \"TI\"]}], \"}\"}], \
+\"\[Element]\", StyleBox[\"reg\", \"TI\"]}]}], \"]\"}]\) \:53d8\:91cf \
+\!\(\*RowBox[{\"{\", RowBox[{StyleBox[\"x\", \"TI\"], \",\", StyleBox[\"y\", \
+\"TI\"]}], \"}\"}]\) \:4ece\:51e0\:4f55\:533a\:57df \!\(\*StyleBox[\"reg\", \
+\"TI\"]\) \:53d6\:503c. ", 
+    "Documentation" -> <|
+     "Local" -> "paclet:ref/Plot3D", "Web" -> 
+      "http://reference.wolfram.com/language/ref/Plot3D.html"|>, "OwnValues" -> 
+    None, "UpValues" -> None, "DownValues" -> None, "SubValues" -> None, 
+    "DefaultValues" -> None, "NValues" -> None, "FormatValues" -> None, 
+    "Options" -> {
+     AlignmentPoint -> Center, AspectRatio -> Automatic, AutomaticImageSize -> 
+      False, Axes -> True, AxesEdge -> Automatic, AxesLabel -> None, 
+      AxesOrigin -> Automatic, AxesStyle -> {}, Background -> None, 
+      BaselinePosition -> Automatic, BaseStyle -> {}, BoundaryStyle -> 
+      GrayLevel[0], Boxed -> True, BoxRatios -> {1, 1, 0.4}, BoxStyle -> {}, 
+      ClippingStyle -> Automatic, ClipPlanes -> None, ClipPlanesStyle -> 
+      Automatic, ColorFunction -> Automatic, ColorFunctionScaling -> True, 
+      ColorOutput -> Automatic, ContentSelectable -> Automatic, 
+      ControllerLinking -> False, ControllerMethod -> Automatic, 
+      ControllerPath -> Automatic, CoordinatesToolOptions -> Automatic, 
+      DisplayFunction :> $DisplayFunction, Epilog -> {}, Evaluated -> 
+      Automatic, EvaluationMonitor -> None, Exclusions -> Automatic, 
+      ExclusionsStyle -> None, FaceGrids -> None, FaceGridsStyle -> {}, 
+      Filling -> None, FillingStyle -> Opacity[0.5], FormatType :> 
+      TraditionalForm, ImageMargins -> 0., ImagePadding -> All, ImageSize -> 
+      Automatic, ImageSizeRaw -> Automatic, LabelingSize -> Automatic, 
+      LabelStyle -> {}, Lighting -> Automatic, MaxRecursion -> Automatic, 
+      Mesh -> Automatic, MeshFunctions -> {#& , #2& }, MeshShading -> None, 
+      MeshStyle -> Automatic, Method -> Automatic, NormalsFunction -> 
+      Automatic, PerformanceGoal :> $PerformanceGoal, PlotLabel -> None, 
+      PlotLabels -> None, PlotLegends -> None, PlotPoints -> Automatic, 
+      PlotRange -> {Full, Full, Automatic}, PlotRangePadding -> Automatic, 
+      PlotRegion -> Automatic, PlotStyle -> Automatic, 
+      PlotTheme :> $PlotTheme, PreserveImageOptions -> Automatic, 
+      Prolog -> {}, RegionFunction -> (True& ), RotationAction -> "Fit", 
+      ScalingFunctions -> None, SphericalRegion -> Automatic, TargetUnits -> 
+      Automatic, TextureCoordinateFunction -> Automatic, 
+      TextureCoordinateScaling -> Automatic, Ticks -> Automatic, 
+      TicksStyle -> {}, TouchscreenAutoZoom -> False, ViewAngle -> Automatic, 
+      ViewCenter -> Automatic, ViewMatrix -> Automatic, 
+      ViewPoint -> {1.3, -2.4, 2.}, ViewProjection -> Automatic, ViewRange -> 
+      All, ViewVector -> Automatic, ViewVertical -> {0, 0, 1}, 
+      WorkingPrecision -> MachinePrecision}, 
+    "Attributes" -> {HoldAll, Protected, ReadProtected}, "FullName" -> 
+    "System`Plot3D"|>, False]]], "Print",
+ CellTags->
+  "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502",ExpressionUUID->"b4a867ec-db9d-\
+4691-9d53-d3f45da39461"]
+}, Open  ]],
+
+Cell["Or you can navigate in Documentation", "Text",
+ CellChangeTimes->{{3.9334879691399555`*^9, 
+  3.9334879818334527`*^9}},ExpressionUUID->"3c341ca4-e599-45b1-b0e9-\
+8ebb6bc2b982"]
+}, Open  ]]
+},
+WindowSize->{638, 721},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+TaggingRules-><|"TryRealOnly" -> False|>,
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (2023\:5e741\:670830\
+\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"214114da-e8af-44f0-a111-70688bb35149"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502"->{
+  Cell[43064, 957, 35416, 731, 157, "Print",ExpressionUUID->"b4a867ec-db9d-4691-9d53-d3f45da39461",
+   CellTags->"Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502", 79128, 1710}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 175, 3, 54, "Subsection",ExpressionUUID->"478d600f-98b4-48be-9961-2df8249a76e2"],
+Cell[758, 27, 212, 4, 35, "Text",ExpressionUUID->"7ba53834-220c-4894-afaf-c869779b969a"],
+Cell[CellGroupData[{
+Cell[995, 35, 190, 3, 28, "Input",ExpressionUUID->"65a6f440-6053-4e01-9844-1d7a02b0a77b"],
+Cell[1188, 40, 31548, 659, 256, "Output",ExpressionUUID->"7d365783-c600-4406-a175-487467c8718c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32773, 704, 196, 3, 28, "Input",ExpressionUUID->"11af2ed3-cce2-4c98-a6da-600cca2ced37"],
+Cell[32972, 709, 10089, 246, 268, "Output",ExpressionUUID->"7b8e4785-c619-472e-b4ed-23297466db6a"],
+Cell[43064, 957, 35416, 731, 157, "Print",ExpressionUUID->"b4a867ec-db9d-4691-9d53-d3f45da39461",
+ CellTags->"Info-d1cc8f7e-67ec-4c14-b137-ff46f0f58502"]
+}, Open  ]],
+Cell[78495, 1691, 182, 3, 35, "Text",ExpressionUUID->"3c341ca4-e599-45b1-b0e9-8ebb6bc2b982"]
+}, Open  ]]
+}
+]
+*)
+

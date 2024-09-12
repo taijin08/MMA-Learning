@@ -1,0 +1,113 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3687,        105]
+NotebookOptionsPosition[      2743,         80]
+NotebookOutlinePosition[      3293,         99]
+CellTagsIndexPosition[      3250,         96]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Chapter IV Word Processing and Typesetting", "Section",
+ CellChangeTimes->{{3.9185118659438906`*^9, 3.91851188551445*^9}, 
+   3.918512031509192*^9, {3.933393772833349*^9, 3.9333937736118836`*^9}, {
+   3.9333938945020847`*^9, 
+   3.9333939040818567`*^9}},ExpressionUUID->"4eb33ee2-0c86-465e-82b6-\
+c85b32e8389b"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Something about Style sheet and format
+Change whole notebook\[CloseCurlyQuote]s style by defining \
+\[OpenCurlyDoubleQuote]Stylesheet\[CloseCurlyDoubleQuote] \
+(\:6837\:5f0f\:8868), change single cell\[CloseCurlyQuote]s format by \
+defining \[OpenCurlyDoubleQuote]Format\[CloseCurlyDoubleQuote] (\:683c\:5f0f)
+
+One can edit a customized stylesheet. \
+\>", "Subsubsection",
+ CellChangeTimes->{{3.9333937680900803`*^9, 3.933393769655938*^9}, 
+   3.933393921023464*^9, {3.9333940439401164`*^9, 3.9333940774021096`*^9}, {
+   3.933394118474453*^9, 3.933394209605438*^9}, {3.93339425732409*^9, 
+   3.9333942835444803`*^9}},ExpressionUUID->"91db5bfa-b4fc-4b5e-a269-\
+8470ddb4a610"],
+
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"Use", " ", "Alt"}], " ", "+", " ", 
+   RowBox[{"7", " ", "to", " ", "shortcut", " ", "to", " ", "text"}]}], 
+  TraditionalForm]],
+ FormatType->
+  TraditionalForm,ExpressionUUID->"09ed533f-cef8-4be0-99d1-e8440542a29a"]], \
+"Text",
+ CellChangeTimes->{{3.933485429419569*^9, 3.933485522773144*^9}, {
+  3.9334855801920347`*^9, 
+  3.9334856085143843`*^9}},ExpressionUUID->"99adb3b5-3732-49f3-8a31-\
+cff3ca9ab383"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{
+   RowBox[{"Use", " ", "Alt"}], " ", "+", " ", 
+   RowBox[{"8", " ", "to", " ", "shortcut", " ", "to", " ", "code"}]}], 
+  "Code"]], "Code",
+ CellChangeTimes->{{3.933485610336466*^9, 3.933485612712569*^9}},
+ CellLabel->"",ExpressionUUID->"2adc4578-10cd-484c-8e48-8fe9bd0fd220"],
+
+Cell[BoxData[
+ StyleBox[
+  RowBox[{
+   RowBox[{"Use", " ", "Alt"}], " ", "+", " ", 
+   RowBox[{"9", " ", "to", " ", "shortcut", " ", "to", " ", "input"}]}], 
+  "Input"]], "Input",
+ CellChangeTimes->{{3.9334855937936773`*^9, 3.933485601141391*^9}},
+ CellLabel->"",ExpressionUUID->"5b6f486f-b931-4608-bbb3-461f8f72fef5"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{638, 721},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+TaggingRules-><|"TryRealOnly" -> False, "NewCellStyle" -> "Text"|>,
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (2023\:5e741\:670830\
+\:65e5)",
+StyleDefinitions->FrontEnd`FileName[{"Report"}, "AutomatedReport.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"d0a64638-bcf0-437e-abfb-645086763d5d"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 317, 5, 82, "Section",ExpressionUUID->"4eb33ee2-0c86-465e-82b6-c85b32e8389b"],
+Cell[CellGroupData[{
+Cell[922, 31, 684, 13, 145, "Subsubsection",ExpressionUUID->"91db5bfa-b4fc-4b5e-a269-8470ddb4a610"],
+Cell[1609, 46, 469, 12, 32, "Text",ExpressionUUID->"99adb3b5-3732-49f3-8a31-cff3ca9ab383"],
+Cell[2081, 60, 313, 7, 45, "Code",ExpressionUUID->"2adc4578-10cd-484c-8e48-8fe9bd0fd220"],
+Cell[2397, 69, 318, 7, 22, "Input",ExpressionUUID->"5b6f486f-b931-4608-bbb3-461f8f72fef5"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
